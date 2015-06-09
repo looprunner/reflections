@@ -1,0 +1,34 @@
+The diff app helped a lot to see the difference in the two files. It narrowed the search
+down to the lines that had changed (in this case it was 3, compared to hundreds in
+the whole file).
+There was a bit of overhead in the start with some exta and cryptic lines, but as soon
+as you get familiar with the syntax, it will be much easier du use diff than to
+"scan" through a file manually
+
+Q: How can having easy access to the entire history of a file make you a more efficient
+programmer in the long term?
+A: When you know that you can easily revert back, it's easier to experiment and try new
+things. Without version control old files and old code can be very messy. Structure here
+will make it easier to focus (on code and problem solving etc.).
+
+Q: What do you think are the pros and cons of manually choosing when to create a commit,
+like you do in Git, vs having versions automatically saved, like Google docs does?
+A: The cons of manual is bigger chance of loosing work due to computer crash. Auto will
+most likely save more often. The pros are bigger control, no save at ilogical places
+(unfinished code, wont compile etc.), and the possibility to add messages to commit
+so you later on can see what the changes was for.
+
+Q: Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+A: In coding it is more common to link to other files, and code can be dependent on 
+other code in other files. When you write english it is not as common to interlink
+files, and the need is therefore lower for text editors intended for non-code.
+
+Q: How can you use commands git log and git diff to view the history of files?
+A: This is pretty straight forward. Use git log to get hashes, and copy paste them to 
+see the diff between two commits. If you are good at nameing and describing your
+commits it will be easier to look for specific changes in the future.
+
+Q: Now that you have your workspace set up, what do you want to try using Git for?
+A: Maybe I should incorporate it in making Quizzeroni? I will defineatley use it
+when I will be making Android apps

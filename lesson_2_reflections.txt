@@ -26,3 +26,8 @@ diagram the way we do?
 A: The result is a new 'HEAD' that represent the changes from two branches. It is
 represented the way it is two reflect which changes/commits were done in the different
 branches.
+
+Q: What are the pros and cons of Git's merging vs. always doing merges manually?
+A: Automatic merging lessen the workload a lot when merging. The downside is that
+you have less control over the process, and git could potentalyy misinterpret the 
+changes done on the different branches.

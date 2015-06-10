@@ -6,3 +6,9 @@ Q: Why migh you want to always pull changes manually rather than having Git auto
 your remote repository
 A: The changes on remote may not always be desireable and not fit in to what you are working on right now. I can
 be better to have control over what gets pulled, and automatic pulll leaves room for more unexpected situations.
+
+Q: Describe the difference between forks, clones, and branches. When would you use one instead of
+another?
+A: A clone is a copy of a repository, living in a seperate space. A fork is a clone on Github. It is
+the same as a clone. A branch lives inside a repository. You fork or clone a project when you want to make your own changes to it, but don't neccesarly want the changes to appear in the original project.
+A branch more for personal use when you want to explore new features or ideas inside your project.

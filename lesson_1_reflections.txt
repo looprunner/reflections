@@ -29,6 +29,12 @@ A: This is pretty straight forward. Use git log to get hashes, and copy paste th
 see the diff between two commits. If you are good at nameing and describing your
 commits it will be easier to look for specific changes in the future.
 
+Q: How might version control make you more confident to make changes that could break
+something?
+A: Version control adds a lot of confidence when it comes to trying new things and
+accidentaly breaking things. When rolling back is easy, the barrier to entry for trying
+new things is considerably lowered
+
 Q: Now that you have your workspace set up, what do you want to try using Git for?
 A: Maybe I should incorporate it in making Quizzeroni? I will defineatley use it
 when I will be making Android apps
